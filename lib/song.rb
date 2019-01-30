@@ -24,6 +24,7 @@ class Song
   
   def self.find_artist_song(song)
     self.all.select {|songs| songs.artist == artist}
+  end
     
   def self.all
     @@all
