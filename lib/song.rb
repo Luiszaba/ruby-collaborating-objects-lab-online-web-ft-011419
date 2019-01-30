@@ -22,7 +22,6 @@ class Song
   def new_artist=(name)
     self.artist = Artist.find_or_create_by_name(name)
   end
-  
     
   def self.all
     @@all
