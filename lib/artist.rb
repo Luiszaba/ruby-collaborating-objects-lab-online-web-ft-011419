@@ -36,14 +36,3 @@ class Artist
     @songs.each {|printer| puts printer.name}
   end
 end
-
-
-
-
-
-
-
-
-
-
-
